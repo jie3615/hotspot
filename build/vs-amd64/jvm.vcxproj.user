@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='compiler1_debug|x64'">
+    <LocalDebuggerCommand>E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk\bin\java.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-XXaltjvm=$(TargetDir) -Dsun.java.launcher=gamma</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>JAVA_HOME=E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='compiler1_fastdebug|x64'">
+    <LocalDebuggerCommand>E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk\bin\java.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-XXaltjvm=$(TargetDir) -Dsun.java.launcher=gamma</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>JAVA_HOME=E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='compiler1_product|x64'">
+    <LocalDebuggerCommand>E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk\bin\java.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-XXaltjvm=$(TargetDir) -Dsun.java.launcher=gamma</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>JAVA_HOME=E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='compiler2_debug|x64'">
+    <LocalDebuggerCommand>E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk\bin\java.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-XXaltjvm=$(TargetDir) -Dsun.java.launcher=gamma</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>JAVA_HOME=E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk</LocalDebuggerEnvironment>
+    <LocalDebuggerWorkingDirectory>E:\jvmtest</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='compiler2_fastdebug|x64'">
+    <LocalDebuggerCommand>E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk\bin\java.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-XXaltjvm=$(TargetDir) -Dsun.java.launcher=gamma -Djava.path.class= Test</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>JAVA_HOME=E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>E:\jvmtest</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='compiler2_product|x64'">
+    <LocalDebuggerCommand>E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk\bin\java.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-XXaltjvm=$(TargetDir) -Dsun.java.launcher=gamma</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>JAVA_HOME=E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tiered_debug|x64'">
+    <LocalDebuggerCommand>E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk\bin\java.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-XXaltjvm=$(TargetDir) -Dsun.java.launcher=gamma</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>JAVA_HOME=E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tiered_fastdebug|x64'">
+    <LocalDebuggerCommand>E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk\bin\java.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-XXaltjvm=$(TargetDir) -Dsun.java.launcher=gamma</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>JAVA_HOME=E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='tiered_product|x64'">
+    <LocalDebuggerCommand>E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk\bin\java.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-XXaltjvm=$(TargetDir) -Dsun.java.launcher=gamma</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>JAVA_HOME=E:\openjdk-jdk8u-jdk8u\build\windows-x86_64-normal-server-fastdebug\jdk</LocalDebuggerEnvironment>
+  </PropertyGroup>
+</Project>

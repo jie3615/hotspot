@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jvm", "jvm.vcxproj", "{8822CB5C-1C41-41C2-8493-9F6E1994338B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		compiler1_debug|x64 = compiler1_debug|x64
+		compiler1_fastdebug|x64 = compiler1_fastdebug|x64
+		compiler1_product|x64 = compiler1_product|x64
+		compiler2_debug|x64 = compiler2_debug|x64
+		compiler2_fastdebug|x64 = compiler2_fastdebug|x64
+		compiler2_product|x64 = compiler2_product|x64
+		tiered_debug|x64 = tiered_debug|x64
+		tiered_fastdebug|x64 = tiered_fastdebug|x64
+		tiered_product|x64 = tiered_product|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.compiler1_debug|x64.ActiveCfg = compiler1_debug|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.compiler1_debug|x64.Build.0 = compiler1_debug|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.compiler1_fastdebug|x64.ActiveCfg = compiler1_fastdebug|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.compiler1_fastdebug|x64.Build.0 = compiler1_fastdebug|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.compiler1_product|x64.ActiveCfg = compiler1_product|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.compiler1_product|x64.Build.0 = compiler1_product|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.compiler2_debug|x64.ActiveCfg = compiler2_debug|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.compiler2_debug|x64.Build.0 = compiler2_debug|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.compiler2_fastdebug|x64.ActiveCfg = compiler2_fastdebug|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.compiler2_fastdebug|x64.Build.0 = compiler2_fastdebug|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.compiler2_product|x64.ActiveCfg = compiler2_product|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.compiler2_product|x64.Build.0 = compiler2_product|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.tiered_debug|x64.ActiveCfg = tiered_debug|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.tiered_debug|x64.Build.0 = tiered_debug|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.tiered_fastdebug|x64.ActiveCfg = tiered_fastdebug|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.tiered_fastdebug|x64.Build.0 = tiered_fastdebug|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.tiered_product|x64.ActiveCfg = tiered_product|x64
+		{8822CB5C-1C41-41C2-8493-9F6E1994338B}.tiered_product|x64.Build.0 = tiered_product|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
